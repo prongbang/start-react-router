@@ -1,5 +1,29 @@
 # start-react-router
 
+```
+src
+.
+├── components                // เก็บ components ที่สามารถเอาไป reuse ได้
+│   └── not-found
+│    ├── style.css
+│    └── index.js
+├── containers                // เก็บไฟล์ที่เป็นหน้า page
+│   ├── app
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── App.test.js
+│   │   └── logo.svg
+│   ├── home
+│   │   └── index.js
+│   └── member
+│    ├── edit.js
+│    └── index.js
+├── ...
+│
+└── routes
+ └── index.js
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
