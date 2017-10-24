@@ -1,0 +1,26 @@
+.avatar {
+    width: 80px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.td, table.th {
+    padding: 30px;
+}
+
+a.link {
+    cursor: pointer;
+}
+
+input.input {
+    height: 2.5rem;
+    min-width: 400px;
+}
+
+button.btn {
+    height: 2.5rem;
+    min-width: 200px;
+}
